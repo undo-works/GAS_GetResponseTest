@@ -1,0 +1,2 @@
+# GAS_GetResponseTest
+GoogleAppsScriptにpost送信して、帰ってきた文字列を表示するJavaコード

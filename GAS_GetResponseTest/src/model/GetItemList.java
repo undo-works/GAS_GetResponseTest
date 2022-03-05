@@ -17,7 +17,7 @@ public class GetItemList {
 	
 	public static ArrayList<Item> getItemList() {
 		//GASのデプロイしたURLを入れる
-		String urlString = "https://script.google.com/macros/s/AKfycbwJrX4CoQRQTTEQwovl_iu8ZgTir15bByq33mzuVQgtW88jwiPpPzhyWZWB6vFBij1SPg/exec"; //your GASproject's url in here!!
+		String urlString = "your GASproject's url in here!!"; 
 		ArrayList<Item> itemList = new ArrayList<Item>();
 	    try {
 	        URL url = new URL(urlString);
@@ -64,7 +64,6 @@ public class GetItemList {
 		        	//リストにセット
 		        	itemList.add(item);
 	        	}
-	        	
 	        }
 	        reader.close();
 	        
